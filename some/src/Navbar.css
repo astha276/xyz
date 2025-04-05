@@ -1,0 +1,60 @@
+/* Navbar Header */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(92, 161, 204);
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .brand-name {
+    font-size: 22px;
+    flex: 1;
+    text-align: center; /* Centers the brand name */
+  }
+  
+  /* Login Button */
+  .login-btn,.logout-btn {
+    background-color: #e94560;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    right: 30px; 
+  }
+  
+  .login-btn:hover,.logout-btn:hover {
+    background-color: #f08a5d;
+  }
+  
+  /* Navigation Bar */
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(128, 75, 136);
+    padding: 15px 0;
+  }
+  
+  .nav-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-align: center;
+  }
+  
+  .nav-links a:hover {
+    color: #e94560;
+  }
+  
